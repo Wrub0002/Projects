@@ -1,0 +1,40 @@
+body{
+    margin: 50px;
+}
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+button[type="submit"] {
+    background-color: rgb(41, 90, 252);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+button[type="reset"] {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.error-message {
+    color: red;
+    font-size: 12px;
+}
+
+.error {
+    border: 1px solid red;
+}
